@@ -7,13 +7,10 @@
     timeframes: [time, date, week, month]
     sql: ${TABLE}.dateoriginal
 
-  - dimension: gpslatitude
-    type: number
-    sql: ${TABLE}.gpslatitude
-
-  - dimension: gpslongitude
-    type: number
-    sql: ${TABLE}.gpslongitude
+  - dimension: location
+    type: location
+    sql_latitude: ${TABLE}.gpslatitude
+    sql_longitude: ${TABLE}.gpslongitude
 
   - dimension: image
     sql: ${TABLE}.image
