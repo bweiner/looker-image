@@ -10,7 +10,7 @@
   elements:  
   
   - name: add_a_unique_name_894
-    title: Untitled Visualization
+    title: Map of US QR Scans
     type: looker_geo_coordinates
     model: image_beanstalk
     explore: imageproccessingtable
